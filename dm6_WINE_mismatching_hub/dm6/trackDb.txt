@@ -1,0 +1,67 @@
+
+
+track minus
+shortLabel minus
+longLabel minus
+type bigWig
+autoScale on
+visibility full
+compositeTrack on
+
+    track NC14.minus
+    parent minus on
+    bigDataUrl CAGE/NC14.minus.bigWig
+    shortLabel NC14.minus
+    longLabel NC14.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track tot8.minus
+    parent minus on
+    bigDataUrl CAGE/tot8.minus.bigWig
+    shortLabel tot8.minus
+    longLabel tot8.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+
+track plus
+shortLabel plus
+longLabel plus
+type bigWig
+autoScale on
+visibility full
+compositeTrack on
+
+    track NC14.plus
+    parent plus on
+    bigDataUrl CAGE/NC14.plus.bigWig
+    shortLabel NC14.plus
+    longLabel NC14.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track tot8.plus
+    parent plus on
+    bigDataUrl CAGE/tot8.plus.bigWig
+    shortLabel tot8.plus
+    longLabel tot8.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
