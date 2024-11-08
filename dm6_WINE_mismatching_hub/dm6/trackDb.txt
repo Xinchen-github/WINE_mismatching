@@ -8,6 +8,18 @@ autoScale on
 visibility full
 compositeTrack on
 
+    track NC14_Rpa70GFP_rep2.minus
+    parent minus on
+    bigDataUrl CAGE/NC14_Rpa70GFP_rep2.minus.bigWig
+    shortLabel NC14_Rpa70GFP_rep2.minus
+    longLabel NC14_Rpa70GFP_rep2.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
     track NC14.minus
     parent minus on
     bigDataUrl CAGE/NC14.minus.bigWig
@@ -40,6 +52,18 @@ type bigWig
 autoScale on
 visibility full
 compositeTrack on
+
+    track NC14_Rpa70GFP_rep2.plus
+    parent plus on
+    bigDataUrl CAGE/NC14_Rpa70GFP_rep2.plus.bigWig
+    shortLabel NC14_Rpa70GFP_rep2.plus
+    longLabel NC14_Rpa70GFP_rep2.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
 
     track NC14.plus
     parent plus on
